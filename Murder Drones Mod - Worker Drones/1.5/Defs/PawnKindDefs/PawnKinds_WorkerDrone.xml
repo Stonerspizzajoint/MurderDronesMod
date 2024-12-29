@@ -1,0 +1,24 @@
+<Defs>
+	<PawnKindDef>
+		<defName>MD_WorkerDrone</defName>
+		<label>worker drone</label>
+		<race>Human</race>
+		<xenotypeSet>
+			<xenotypeChances>
+				<MD_WorkerDroneBase>999</MD_WorkerDroneBase>
+			</xenotypeChances>
+		</xenotypeSet>
+		<apparelMoney>300~3800</apparelMoney>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryBasic</li>
+		</apparelTags>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<useFactionXenotypes>false</useFactionXenotypes>
+		<combatPower>0</combatPower>
+		<initialWillRange>0</initialWillRange>
+		<initialResistanceRange>0</initialResistanceRange>
+	</PawnKindDef>
+</Defs>
