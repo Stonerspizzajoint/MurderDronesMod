@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<VREAndroids.AndroidGeneDef Name="MD_DroneEyesBase" Abstract="True">
+	<displayCategory>VREA_Hardware</displayCategory>
+	<exclusionTags>
+		<li>head</li>
+	</exclusionTags>
+	<randomChosen>true</randomChosen>
+	</VREAndroids.AndroidGeneDef>
+<!--Blue Eyes-->
+	<VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+	<defName>MD_Eye_Colors_Blue</defName>
+	<label>blue display eyes</label>
+	<description>Carriers of this gene have blue eyes.</description>
+	<iconPath>UI/Icons/Genes/BlueEyesIcon</iconPath>
+	<isCoreComponent>false</isCoreComponent>
+	<selectionWeight>0</selectionWeight>
+	<displayOrderInCategory>0</displayOrderInCategory>
+	<biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/BlueEyes/Male/BlueEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/BlueEyes/Female/BlueEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/BlueEyes/Male/BlueEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/BlueEyes/Female/BlueEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+<!--Green Eyes-->
+	<VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+	<defName>MD_Eye_Colors_Green</defName>
+	<label>green display eyes</label>
+    <labelShortAdj>Green-eyed</labelShortAdj>
+    <description>Carriers of this gene have green eyes.</description>
+    <iconPath>UI/Icons/Genes/GreenEyesIcon</iconPath>
+	<isCoreComponent>false</isCoreComponent>
+	<selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>0</displayOrderInCategory>
+	<biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/GreenEyes/Male/GreenEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/GreenEyes/Female/GreenEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/GreenEyes/Male/GreenEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/GreenEyes/Female/GreenEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+ </VREAndroids.AndroidGeneDef>
+<!--Orange Eyes-->
+  <VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+  <defName>MD_Eye_Colors_Orange</defName>
+  <label>orange display eyes</label>
+  <labelShortAdj>Orange-eyed</labelShortAdj>
+  <description>Carriers of this gene have orange eyes.</description>
+  <iconPath>UI/Icons/Genes/OrangeEyesIcon</iconPath>
+  <isCoreComponent>false</isCoreComponent>
+  <selectionWeight>0</selectionWeight>
+  <displayOrderInCategory>0</displayOrderInCategory>
+  <biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/OrangeEyes/Male/OrangeEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/OrangeEyes/Female/OrangeEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/OrangeEyes/Male/OrangeEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/OrangeEyes/Female/OrangeEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+<!--Purple Eyes-->
+  <VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+  <defName>MD_Eye_Colors_Purple</defName>
+  <label>purple display eyes</label>
+  <labelShortAdj>Purple-eyed</labelShortAdj>
+  <description>Carriers of this gene have purple eyes.</description>
+  <iconPath>UI/Icons/Genes/PurpleEyesIcon</iconPath>
+  <isCoreComponent>false</isCoreComponent>
+  <selectionWeight>0</selectionWeight>
+  <displayOrderInCategory>0</displayOrderInCategory>
+  <biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/PurpleEyes/Male/PurpleEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/PurpleEyes/Female/PurpleEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/PurpleEyes/Male/PurpleEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/PurpleEyes/Female/PurpleEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+<!--White Eyes-->
+  <VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+  <defName>MD_Eye_Colors_White</defName>
+  <label>white display eyes</label>
+  <labelShortAdj>Snow White-eyed</labelShortAdj>
+  <description>Carriers of this gene have pale white eyes.</description>
+  <iconPath>UI/Icons/Genes/SnowWhiteEyesIcon</iconPath>
+  <isCoreComponent>false</isCoreComponent>
+  <selectionWeight>0</selectionWeight>
+  <displayOrderInCategory>0</displayOrderInCategory>
+  <biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/SnowWhiteEyes/Male/SnowWhiteEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/SnowWhiteEyes/Female/SnowWhiteEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/SnowWhiteEyes/Male/SnowWhiteEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/SnowWhiteEyes/Female/SnowWhiteEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+<!--Teal Eyes-->
+  <VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+  <defName>MD_Eye_Colors_Teal</defName>
+  <label>teal display eyes</label>
+  <labelShortAdj>Teal-eyed</labelShortAdj>
+  <description>Carriers of this gene have teal eyes.</description>
+  <iconPath>UI/Icons/Genes/TealEyesIcon</iconPath>
+  <isCoreComponent>false</isCoreComponent>
+  <selectionWeight>0</selectionWeight>
+  <displayOrderInCategory>0</displayOrderInCategory>
+  <biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/TealEyes/Male/TealEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/TealEyes/Female/TealEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/TealEyes/Male/TealEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/TealEyes/Female/TealEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+<!--Yellow Eyes-->
+  <VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+  <defName>MD_Eye_Colors_Yellow</defName>
+  <label>yellow display eyes</label>
+  <labelShortAdj>Yellow-eyed</labelShortAdj>
+  <description>Yellow eyes</description>
+  <iconPath>UI/Icons/Genes/YellowEyesIcon</iconPath>
+  <isCoreComponent>false</isCoreComponent>
+  <selectionWeight>0</selectionWeight>
+  <displayOrderInCategory>0</displayOrderInCategory>
+  <biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/YellowEyes/Male/YellowEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/YellowEyes/Female/YellowEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/YellowEyes/Male/YellowEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/YellowEyes/Female/YellowEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+<!--Pink Eyes-->
+<VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+  <defName>MD_Eye_Colors_Pink</defName>
+  <label>pink  display eyes</label>
+  <labelShortAdj>Pink eyes</labelShortAdj>
+  <description>Carriers of this gene have pink eyes.</description>
+  <iconPath>UI/Icons/Genes/PinkEyesIcon</iconPath>
+  <isCoreComponent>false</isCoreComponent>
+  <selectionWeight>0</selectionWeight>
+  <displayOrderInCategory>0</displayOrderInCategory>
+  <biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/PinkEyes/Male/PinkEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/PinkEyes/Female/PinkEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/PinkEyes/Male/PinkEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/PinkEyes/Female/PinkEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+<!--Red Eyes-->
+<VREAndroids.AndroidGeneDef ParentName="MD_DroneEyesBase">
+  <defName>MD_Eye_Colors_Red</defName>
+  <label>red display eyes</label>
+  <labelShortAdj>Red eyes</labelShortAdj>
+  <description>Carriers of this gene have red eyes.</description>
+  <iconPath>UI/Icons/Genes/RedEyesIcon</iconPath>
+  <isCoreComponent>false</isCoreComponent>
+  <selectionWeight>0</selectionWeight>
+  <displayOrderInCategory>0</displayOrderInCategory>
+  <biostatCpx>0</biostatCpx>
+		<renderNodeProperties>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/RedEyes/Male/RedEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/RedEyes/Female/RedEyes_Female</texPathFemale>
+				<anchorTag>RightEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Right</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+					</defaultData>
+				</drawData>
+			</li>
+			<li Class="PawnRenderNodeProperties_Eye">
+				<texPath>Pawn/Display/RedEyes/Male/RedEyes_Male</texPath>
+				<texPathFemale>Pawn/Display/RedEyes/Female/RedEyes_Female</texPathFemale>
+				<anchorTag>LeftEye</anchorTag>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<parentTagDef>Head</parentTagDef>
+				<drawSize>0.075</drawSize>
+				<side>Left</side>
+				<drawData>
+					<defaultData>
+						<layer>54</layer>
+						<offset>(0, 0, -0.23)</offset>
+						<flip>true</flip>
+					</defaultData>
+					<dataWest>
+						<flip>false</flip>
+					</dataWest>
+				</drawData>
+			</li>
+		</renderNodeProperties>
+</VREAndroids.AndroidGeneDef>
+</Defs>

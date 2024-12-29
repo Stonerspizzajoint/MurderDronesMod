@@ -1,0 +1,14 @@
+<Defs>
+
+<!--Worker Drone "Fur"-->
+  <FurDef>
+    <defName>MD_DroneBodyfur</defName>
+    <noGraphic>true</noGraphic>
+    <bodyTypeGraphicPaths>
+      <Male>Pawn/WorkerDrone/Body/Drone_Male</Male>
+      <Female>Pawn/WorkerDrone/Body/Drone_Female</Female>
+      <Child>Pawn/WorkerDrone/Body/Drone_Male</Child>
+      <Baby>Pawn/WorkerDrone/Baby/Drone_Baby</Baby>
+    </bodyTypeGraphicPaths>
+  </FurDef>
+</Defs>
